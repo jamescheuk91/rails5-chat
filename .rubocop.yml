@@ -1,0 +1,12 @@
+AllCops:
+  Includes:
+    - Rakefile
+    - config.ru
+  Excludes:
+    - db/schema.rb
+    - config/**
+    - script/**
+Documentation:
+  Enabled: false
+Rails:
+  Enabled: false
